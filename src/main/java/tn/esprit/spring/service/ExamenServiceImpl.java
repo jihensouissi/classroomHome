@@ -17,6 +17,7 @@ public class ExamenServiceImpl implements IExamenService {
 	@Autowired
 	ExamenRepository examenRepository;
 
+
 	@Override
 	public List<Examen> retrieveAllExamens() {
 		List<Examen> examens = (List<Examen>) examenRepository.findAll();
@@ -25,4 +26,5 @@ public class ExamenServiceImpl implements IExamenService {
 		}
 		return examens;
 	}
+
 }

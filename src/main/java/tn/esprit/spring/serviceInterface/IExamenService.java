@@ -8,4 +8,6 @@ public interface IExamenService {
 
 	List<Examen> retrieveAllExamens();
 
+
+
 }
